@@ -1,0 +1,27 @@
+<!doctype html>
+<html ng-app="minhaApp">
+    <head>
+        <meta charset="utf-8">
+        <script src="../jquery.min.js"></script>
+        <script src="../ng/angular.min.js"></script>
+        <script src="../ng/ng-route.min.js"></script>
+        <link rel="stylesheet" href="../bs/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../bs/css/bootstrap-theme.min.css">
+        
+
+        <script src="app.js"></script>
+        <script src="controller.js"></script>
+
+    </head>
+    <body>
+        <h1>Terceiro exemplo - Partials - Diretivas personalizadas</h1>
+        <div class="btn-group">
+          <a href="#/home" class="btn btn-default">Home</a>
+          <a href="#/partial2" class="btn btn-default">Partial 2</a>
+        </div>
+
+        <div ng-view>
+
+        </div>
+    </body>
+</html>
